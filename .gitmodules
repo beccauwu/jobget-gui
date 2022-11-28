@@ -1,0 +1,3 @@
+[submodule "jobget"]
+	path = jobget
+	url = https://github.com/beccauwu/jobget.git
