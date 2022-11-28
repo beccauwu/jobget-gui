@@ -1,5 +1,7 @@
-from pydantic import BaseModel
 from typing import Callable
+
+from pydantic import BaseModel
+
 
 class InputSize(BaseModel):
     label_width: int
@@ -8,6 +10,7 @@ class InputSize(BaseModel):
     button_height: int
     entry_width: int
     entry_height: int
+
 
 class Checkbox(BaseModel):
     text: str
